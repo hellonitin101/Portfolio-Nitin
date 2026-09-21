@@ -9,6 +9,7 @@ import facebookLogin from '../Assets/Facebook-login-clone.png'
 import netflixClone from '../Assets/Netflix web clone.png'
 import notesMaker from '../Assets/Notes-maker.png'
 import ultraEdit from '../Assets/UltraEdit-web clone.png'
+import PortFolio from '../Assets/PortFolio.png'
 
 const Projects = () => {
 
@@ -51,6 +52,13 @@ const Projects = () => {
       image: ultraEdit,
       description:
         'A frontend recreation of the UltraEdit website created for practicing responsive web design.',
+    },
+    {
+      title: 'Personal Portfolio',
+      image: PortFolio,
+      description:
+        'A modern responsive personal portfolio website showcasing my skills, projects, experience, and contact information.',
+      liveLink:'https://portnitin.vercel.app/'
     },
   ]
 
