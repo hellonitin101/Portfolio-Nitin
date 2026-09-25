@@ -10,6 +10,7 @@ import netflixClone from '../Assets/Netflix web clone.png'
 import notesMaker from '../Assets/Notes-maker.png'
 import ultraEdit from '../Assets/UltraEdit-web clone.png'
 import PortFolio from '../Assets/PortFolio.png'
+import PassOp from '../Assets/PassOP.png'
 
 const Projects = () => {
 
@@ -20,8 +21,29 @@ const Projects = () => {
       offset: 100,
     })
   }, [])
-
+  
   const projects = [
+    {
+      title: 'Personal Portfolio',
+      image: PortFolio,
+      description:
+      'A modern responsive personal portfolio website showcasing my skills, projects, experience, and contact information.',
+      liveLink:'https://portnitin.vercel.app/'
+    },
+    {
+      title: 'Notes Maker',
+      image: notesMaker,
+      description:
+        'A React based notes application where users can create, manage and store their notes.',
+      liveLink: 'https://anotesmaker.vercel.app/',
+    },
+    {
+      title: 'Password Manager',
+      image: PassOp,
+      description:
+        'A React based Password application where users can manage and store their notes.',
+      liveLink: 'https://mypassop.vercel.app/',
+    },
     {
       title: 'Document Access',
       image: documentPlace,
@@ -41,24 +63,10 @@ const Projects = () => {
         'A responsive Netflix-inspired website interface built to practice modern frontend development.',
     },
     {
-      title: 'Notes Maker',
-      image: notesMaker,
-      description:
-        'A React based notes application where users can create, manage and store their notes.',
-      liveLink: 'https://anotesmaker.vercel.app/',
-    },
-    {
       title: 'UltraEdit Web Clone',
       image: ultraEdit,
       description:
-        'A frontend recreation of the UltraEdit website created for practicing responsive web design.',
-    },
-    {
-      title: 'Personal Portfolio',
-      image: PortFolio,
-      description:
-        'A modern responsive personal portfolio website showcasing my skills, projects, experience, and contact information.',
-      liveLink:'https://portnitin.vercel.app/'
+      'A frontend recreation of the UltraEdit website created for practicing responsive web design.',
     },
   ]
 
