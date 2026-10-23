@@ -8,7 +8,6 @@ const Skills = () => {
     { name: 'CSS', percentage: 90 },
     { name: 'Tailwind CSS', percentage: 85 },
     { name: 'GSAP', percentage: 80 },
-    { name: 'Framer Motion', percentage: 80 },
     { name: 'JavaScript', percentage: 75 },
     { name: 'React.js', percentage: 70 },
     { name: 'Communication', percentage: 75 },
