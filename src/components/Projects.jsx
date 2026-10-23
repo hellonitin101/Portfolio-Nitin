@@ -10,7 +10,7 @@ import netflixClone from '../Assets/Netflix web clone.png'
 import notesMaker from '../Assets/Notes-maker.png'
 import ultraEdit from '../Assets/UltraEdit-web clone.png'
 import PortFolio from '../Assets/PortFolio.png'
-import PassOp from '../Assets/PassOP.png'
+import car from '../Assets/car.png'
 
 const Projects = () => {
 
@@ -38,11 +38,11 @@ const Projects = () => {
       liveLink: 'https://anotesmaker.vercel.app/',
     },
     {
-      title: 'Password Manager',
-      image: PassOp,
+      title: 'Manage Car Records',
+      image: car,
       description:
-        'A React based Password application where users can manage and store their notes.',
-      liveLink: 'https://mypassop.vercel.app/',
+        'Developed Decar, a responsive car records management web application to efficiently manage and organize vehicle information using React.js and Tailwind CSS.',
+      liveLink: 'https://decar.vercel.app/',
     },
     {
       title: 'Document Access',
